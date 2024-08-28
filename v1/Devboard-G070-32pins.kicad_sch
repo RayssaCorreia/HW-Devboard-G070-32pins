@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "64c5f682-8fec-4c85-9390-1583d44cdecc")
+	(paper "A4")
+	(title_block
+		(rev "1")
+	)
+	(lib_symbols)
+	(text "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)#Flash_Unprotected_Bootloader\n"
+		(exclude_from_sim no)
+		(at 227.076 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "418a14db-1812-4866-bff7-c8e4e5bba988")
+	)
+	(text "https://embarcados.com.br/placa-blue-pill-stm32f103c8t6-detalhes-do-esquematico/"
+		(exclude_from_sim no)
+		(at 221.488 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "691d4ab8-7b4f-41f5-9005-02469931c96a")
+	)
+	(text "https://www.st.com/resource/en/user_manual/um2401-stm32g0-discovery-kit-for-usb-typec-and-power-delivery-stmicroelectronics.pdf"
+		(exclude_from_sim no)
+		(at 226.06 171.45 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "b4f71ae6-955d-4afa-b3db-561325ebf8b3")
+	)
+	(sheet
+		(at 109.22 78.74)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2051a8ba-bf1c-45b7-8518-06663f731425")
+		(property "Sheetname" "Micro"
+			(at 109.22 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro.kicad_sch"
+			(at 109.22 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKitJornada"
+				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 206.375 79.375)
+		(size 38.735 24.765)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "290b6f7d-8953-4006-b646-06216f45cc7b")
+		(property "Sheetname" "Extension connectors"
+			(at 206.375 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ExtensionConnectors.kicad_sch"
+			(at 206.375 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKitJornada"
+				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 78.74)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92178afa-25e2-4cf5-913d-7d5abb21b57b")
+		(property "Sheetname" "Code"
+			(at 157.48 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "code.kicad_sch"
+			(at 157.48 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKitJornada"
+				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 78.74)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be21e5fb-f4da-4d75-98e8-c2ccd4bd99b6")
+		(property "Sheetname" "Power "
+			(at 58.42 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 58.42 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DevKitJornada"
+				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
