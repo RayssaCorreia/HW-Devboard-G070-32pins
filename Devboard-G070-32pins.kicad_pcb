@@ -126,7 +126,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "01a7eb97-fa37-4fbc-94b7-c5f6ebcb14bd")
-		(at 98.675 75.395)
+		(at 116.5625 69)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
@@ -1575,7 +1575,7 @@
 	(footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm"
 		(layer "F.Cu")
 		(uuid "aff6226f-4b88-4e81-91a4-d53ddd9cca08")
-		(at 108.825 78.7)
+		(at 131.325 76.5)
 		(descr "LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT358-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
@@ -2852,5 +2852,21 @@
 			(pintype "passive")
 			(uuid "dc322fe0-74e8-4b8b-ade5-a50093ad2aae")
 		)
+	)
+	(segment
+		(start 115.625 69.95)
+		(end 122.575 76.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "03e63336-f6e8-4376-a97d-4dd4f297dfd2")
+	)
+	(segment
+		(start 122.575 76.9)
+		(end 127.15 76.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "c3771a0c-3791-4a3e-a463-c25047176f37")
 	)
 )

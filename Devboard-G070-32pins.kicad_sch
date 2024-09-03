@@ -69,7 +69,7 @@
 			)
 		)
 		(instances
-			(project "DevKitJornada"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "3")
 				)
@@ -107,7 +107,7 @@
 			)
 		)
 		(instances
-			(project "DevKitJornada"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "5")
 				)
@@ -145,7 +145,7 @@
 			)
 		)
 		(instances
-			(project "DevKitJornada"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "4")
 				)
@@ -183,7 +183,7 @@
 			)
 		)
 		(instances
-			(project "DevKitJornada"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "2")
 				)
