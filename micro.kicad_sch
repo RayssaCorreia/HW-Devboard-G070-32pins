@@ -1227,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 109.22 119.38)
+			(xy 107.95 119.38) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 96.52 119.38)
+			(xy 100.33 119.38) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1841,13 +1841,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 171.45 45.212 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -1910,13 +1909,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 131.7752 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 144.526 138.176 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -1979,13 +1977,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 192.7352 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2179,16 +2176,15 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 124.46 0)
+		(property "Footprint" "Crystal_SMD_G8-2Pin_3.2x1.5mm"
+			(at 154.94 120.65 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.mouser.com/datasheet/2/3/ABS07-3080027.pdf"
 			(at 154.94 124.46 0)
 			(effects
 				(font
@@ -2288,7 +2284,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 102.87 119.38 0)
+		(at 104.14 119.38 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2297,7 +2293,7 @@
 		(dnp no)
 		(uuid "680d00d4-ae41-4870-b282-be3127b73ef2")
 		(property "Reference" "Y1"
-			(at 103.124 123.19 0)
+			(at 104.394 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,24 +2301,23 @@
 			)
 		)
 		(property "Value" "32.768Khz"
-			(at 103.124 115.57 0)
+			(at 104.394 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 119.38 0)
+		(property "Footprint" "Crystal_SMD_G8-2Pin_3.2x1.5mm"
+			(at 104.14 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 119.38 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2326,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 102.87 119.38 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,13 +2441,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.1852 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 122.428 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2499,7 +2493,7 @@
 		(fields_autoplaced yes)
 		(uuid "b28045e8-b299-40c4-a81a-0344e0535967")
 		(property "Reference" "R8"
-			(at 167.64 123.1899 0)
+			(at 167.64 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2502,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 167.64 125.7299 0)
+			(at 167.64 125.0949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,13 +2510,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.322 124.46 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 167.64 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2634,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "c13d93ab-4972-43cb-8031-a189bcb78e23")
 		(property "Reference" "SW4"
-			(at 179.07 68.58 0)
+			(at 179.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,20 +2636,19 @@
 			)
 		)
 		(property "Value" "SW_MEC_5E"
-			(at 179.07 71.12 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 179.07 71.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
@@ -2724,13 +2717,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.4852 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 83.312 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2859,13 +2851,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 119.0752 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 145.034 110.744 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2913,7 +2904,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb90e2e1-9291-4881-b23a-af6563b2281d")
 		(property "Reference" "D3"
-			(at 190.8175 54.61 0)
+			(at 190.8175 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,20 +2912,19 @@
 			)
 		)
 		(property "Value" "LED_Red"
-			(at 190.8175 52.07 0)
+			(at 190.8175 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 46.99 0)
+		(property "Footprint" "LED_SMD:LED_Kingbright_KPBD-3224"
+			(at 190.8175 44.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
