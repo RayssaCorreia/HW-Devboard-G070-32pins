@@ -8,6 +8,50 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 13.97 34.29) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 2 1)
+		)
+		(uuid "1f592498-bf63-4dde-bc1a-8779ea0e318b")
+	)
+	(bus
+		(pts
+			(xy 13.97 17.145) (xy 13.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 2 1)
+		)
+		(uuid "24a2c948-c1e1-473f-af9f-09912b566181")
+	)
+	(bus
+		(pts
+			(xy 13.97 17.145) (xy 137.16 17.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 2 1)
+		)
+		(uuid "4a1889d5-e91b-478e-bec3-aebf8b0e22f5")
+	)
+	(bus
+		(pts
+			(xy 137.16 34.29) (xy 137.16 17.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 2 1)
+		)
+		(uuid "5849408c-c3df-4fca-b594-ed892f5fedc1")
+	)
 	(text "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)#Flash_Unprotected_Bootloader\n"
 		(exclude_from_sim no)
 		(at 227.076 173.99 0)
@@ -38,9 +82,36 @@
 		)
 		(uuid "b4f71ae6-955d-4afa-b3db-561325ebf8b3")
 	)
+	(text "DICAS"
+		(exclude_from_sim no)
+		(at 17.78 15.875 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 6 2 1)
+			)
+		)
+		(uuid "ddd0344d-27d1-42d1-bd3b-53bfc0318d24")
+	)
+	(text "- É uma boa pratica não colocar espaço nem acento em nome de qualquer arquivo, \n  assim você fecha brechas para erros. Ex: \"Placa projeto com malha GND\" -> \"ProjetoMalhaGND ou projeto_malha_gnd\" \n- Separe seu projeto em páginas de acordo com suas funçõe ou caracteristicas similares \n- Se apertar nas páginas abaixo e clicar ena letra E, vera os campos: sheetname e sheetfile.\n- Sempre colocar os mesmos nomes\n- Percebera que na pasta do seu projeto(diretório) havera um aquivos tera um com extenção .kicad_sch\n- Se por acoso alterar o nome da página, lembre de apagar o arquivo antigo no seu diretório"
+		(exclude_from_sim no)
+		(at 14.605 25.4 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "e4dd72ab-4219-4006-ab8a-b10a42532f9c")
+	)
 	(sheet
-		(at 109.22 78.74)
-		(size 38.1 25.4)
+		(at 97.155 76.2)
+		(size 43.18 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -49,9 +120,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2051a8ba-bf1c-45b7-8518-06663f731425")
-		(property "Sheetname" "Micro"
-			(at 109.22 78.0284 0)
+		(uuid "be1b811c-e20f-4df6-9e66-4b3585924f3d")
+		(property "Sheetname" "connectors"
+			(at 97.155 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,8 +130,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "micro.kicad_sch"
-			(at 109.22 104.7246 0)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 97.155 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,7 +140,7 @@
 			)
 		)
 		(instances
-			(project "Devboard-G070-32pins"
+			(project "prototipoV1"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "3")
 				)
@@ -77,84 +148,8 @@
 		)
 	)
 	(sheet
-		(at 206.375 79.375)
-		(size 38.735 24.765)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "290b6f7d-8953-4006-b646-06216f45cc7b")
-		(property "Sheetname" "Extension connectors"
-			(at 206.375 78.6634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ExtensionConnectors.kicad_sch"
-			(at 206.375 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Devboard-G070-32pins"
-				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 157.48 78.74)
-		(size 38.1 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "92178afa-25e2-4cf5-913d-7d5abb21b57b")
-		(property "Sheetname" "Code"
-			(at 157.48 78.0284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "code.kicad_sch"
-			(at 157.48 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Devboard-G070-32pins"
-				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 58.42 78.74)
-		(size 38.1 25.4)
+		(at 148.59 76.2)
+		(size 40.64 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -164,8 +159,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "be21e5fb-f4da-4d75-98e8-c2ccd4bd99b6")
-		(property "Sheetname" "Power "
-			(at 58.42 78.0284 0)
+		(property "Sheetname" "peripherls"
+			(at 148.59 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,8 +168,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 58.42 104.7246 0)
+		(property "Sheetfile" "peripherls.kicad_sch"
+			(at 148.59 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,7 +178,7 @@
 			)
 		)
 		(instances
-			(project "Devboard-G070-32pins"
+			(project "prototipoV1"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "2")
 				)
