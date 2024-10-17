@@ -3076,16 +3076,6 @@
 		)
 		(uuid "377a7f05-b9b2-4108-b3da-07e87f8754d3")
 	)
-	(text "Concluido "
-		(exclude_from_sim no)
-		(at 61.214 90.297 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "450a1305-3e00-4ce0-b95d-3e4f3866d8af")
-	)
 	(text "BUZZER"
 		(exclude_from_sim no)
 		(at 179.07 45.085 0)
@@ -3139,16 +3129,6 @@
 			)
 		)
 		(uuid "d3f0c5ac-f166-490c-959a-5fbebdb5cea3")
-	)
-	(text "100nf"
-		(exclude_from_sim no)
-		(at 208.534 153.289 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dbcd2002-2d50-46b7-a5a8-5aee7ec14d04")
 	)
 	(global_label "PB5"
 		(shape input)
@@ -4154,16 +4134,15 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 208.28 144.145 90)
+		(property "Value" "100nF"
+			(at 208.28 152.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 212.09 148.2598 0)
 			(effects
 				(font
@@ -4231,7 +4210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "SW_PUSH-12mm_Wuerth-430476085716"
 			(at 60.96 73.025 0)
 			(effects
 				(font
@@ -4585,7 +4564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
+		(property "Footprint" "C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 74.6252 90.805 0)
 			(effects
 				(font
@@ -4918,7 +4897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 121.92 49.403 90)
 			(effects
 				(font
@@ -5327,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "SW_PUSH-12mm_Wuerth-430476085716"
 			(at 209.55 133.985 0)
 			(effects
 				(font
@@ -5476,7 +5455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+		(property "Footprint" "Buzzer_12x9.5RM7.6"
 			(at 226.695 60.325 90)
 			(effects
 				(font

@@ -140,7 +140,7 @@
 			)
 		)
 		(instances
-			(project "prototipoV1"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "3")
 				)
@@ -178,7 +178,7 @@
 			)
 		)
 		(instances
-			(project "prototipoV1"
+			(project "Devboard-G070-32pins"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc"
 					(page "2")
 				)

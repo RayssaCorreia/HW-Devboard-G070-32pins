@@ -5180,7 +5180,7 @@
 	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 		(layer "F.Cu")
 		(uuid "d1aa8542-58db-4c45-a196-5bb5451e1a82")
-		(at 133.5 133)
+		(at 134.7 139)
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
 		(property "Reference" "BZ1"
