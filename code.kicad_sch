@@ -2488,6 +2488,12 @@
 		(uuid "187b28a9-1e46-4400-8fb7-a96e716c0b38")
 	)
 	(junction
+		(at 132.08 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34566f51-3cee-4391-9eb9-48af4bf0dae3")
+	)
+	(junction
 		(at 154.94 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2599,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 128.27 128.27)
+			(xy 138.43 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3356,6 +3362,16 @@
 			(type dot)
 		)
 		(uuid "df5ae3f0-2d39-44ad-a7a9-4b5202bacf45")
+	)
+	(wire
+		(pts
+			(xy 132.08 128.27) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e613c7ee-74fa-47f4-9a4d-e787ca13797e")
 	)
 	(bus
 		(pts
@@ -4231,6 +4247,72 @@
 			(project "DevKitJornada"
 				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc/92178afa-25e2-4cf5-913d-7d5abb21b57b"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2285bb19-b2ca-4e47-8b1c-4975bec2c1dd")
+		(property "Reference" "#PWR03"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2608d07-559c-4241-8ecf-51e832d81a61")
+		)
+		(instances
+			(project ""
+				(path "/64c5f682-8fec-4c85-9390-1583d44cdecc/92178afa-25e2-4cf5-913d-7d5abb21b57b"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
