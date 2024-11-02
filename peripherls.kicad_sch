@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
+		(property "Footprint" "personalized:LED_RGB"
 			(at 223.52 102.87 0)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 183.642 57.15 90)
 			(effects
 				(font
