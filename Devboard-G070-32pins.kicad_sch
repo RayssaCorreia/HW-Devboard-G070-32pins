@@ -248,7 +248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
+		(property "Footprint" "personalized:V_1mm"
 			(at 207.01 77.47 0)
 			(effects
 				(font
@@ -315,7 +315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
+		(property "Footprint" "personalized:V_1mm"
 			(at 224.79 77.47 0)
 			(effects
 				(font

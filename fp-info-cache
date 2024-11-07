@@ -1,4 +1,4 @@
-23877219932145888
+23887605678646202
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96740,6 +96740,34 @@ Varistor VF
 2
 2
 personalized
+CP_Radial_1mm
+
+
+0
+2
+2
+personalized
+CP_Radial_Tantal_1mm
+
+
+0
+2
+2
+personalized
+C_Disc_D1mm
+
+
+0
+2
+2
+personalized
+LED_1mm
+
+
+0
+2
+2
+personalized
 LED_RGB
 
 
@@ -96747,12 +96775,26 @@ LED_RGB
 4
 4
 personalized
+Resistor_THT_Horizontal_1mm
+
+
+0
+2
+2
+personalized
 SW_PUSH-12mm
 
 
 0
 4
 4
+personalized
+V_1mm
+
+
+0
+1
+1
 personalized
 hole
 
