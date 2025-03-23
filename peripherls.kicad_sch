@@ -636,7 +636,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED_ARGB"
+		(symbol "Device:LED_KRGB"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -650,7 +650,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_ARGB"
+			(property "Value" "LED_KRGB"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -676,7 +676,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, anode/red/green/blue"
+			(property "Description" "RGB LED, cathode/red/green/blue"
 				(at 0 0 0)
 				(effects
 					(font
@@ -703,9 +703,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_ARGB_0_0"
+			(symbol "LED_KRGB_0_0"
 				(text "B"
-					(at -1.905 -6.35 0)
+					(at 1.905 -6.35 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -713,7 +713,7 @@
 					)
 				)
 				(text "G"
-					(at -1.905 -1.27 0)
+					(at 1.905 -1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -721,7 +721,7 @@
 					)
 				)
 				(text "R"
-					(at -1.905 3.81 0)
+					(at 1.905 3.81 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -729,17 +729,16 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
+			(symbol "LED_KRGB_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -792,18 +791,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 5.08) (xy 1.27 5.08)
 					)
 					(stroke
@@ -828,6 +815,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
@@ -841,6 +840,18 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -876,7 +887,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+						(xy -1.27 5.08) (xy -2.032 5.08) (xy -2.032 -5.08) (xy -1.016 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1038,17 +1049,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(rectangle
 					(start 2.794 8.382)
 					(end -2.794 -7.62)
@@ -1061,11 +1061,11 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_1_1"
+			(symbol "LED_KRGB_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1081,9 +1081,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 5.08 180)
 					(length 2.54)
-					(name "RK"
+					(name "RA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1099,9 +1099,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "GK"
+					(name "GA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1117,9 +1117,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 5.08 -5.08 180)
 					(length 2.54)
-					(name "BK"
+					(name "BA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5710,8 +5710,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
-		(at 223.52 101.6 0)
+		(lib_id "Device:LED_KRGB")
+		(at 223.52 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5719,7 +5719,7 @@
 		(dnp no)
 		(uuid "5801ed70-0d75-453e-8d1c-7d6c6c844f65")
 		(property "Reference" "D2"
-			(at 223.52 91.948 0)
+			(at 223.52 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5727,7 @@
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 223.52 110.49 0)
+			(at 223.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "Footprint" "personalized:LED_RGB"
-			(at 223.52 102.87 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 102.87 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "RGB LED, cathode/red/green/blue"
 			(at 223.52 101.6 0)
 			(effects
 				(font
