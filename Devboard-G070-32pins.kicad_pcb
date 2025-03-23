@@ -772,6 +772,17 @@
 			(pintype "passive")
 			(uuid "d98816a1-1e24-486f-9c31-496a6871c3c8")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+			(offset
+				(xyz 0 0 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:C_Disc_D1mm"
 		(layer "F.Cu")
@@ -976,6 +987,17 @@
 			(net 7 "BTN_Code")
 			(pintype "passive")
 			(uuid "2e8d1a69-052f-4ef1-b215-8b3ba7a088c3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.8mm_W2.6mm_P2.50mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "personalized:Resistor_THT_Horizontal_1mm"
@@ -1242,6 +1264,17 @@
 			(pintype "passive")
 			(uuid "09cc042a-7056-4a28-9417-7de577a5a184")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:Resistor_THT_Horizontal_1mm"
 		(layer "F.Cu")
@@ -1506,6 +1539,17 @@
 			(net 4 "LED_G")
 			(pintype "passive")
 			(uuid "b1e660dc-6e8d-416b-96c3-d47510aba451")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "personalized:Resistor_THT_Horizontal_1mm"
@@ -1875,6 +1919,17 @@
 			(net 18 "+3V3")
 			(pintype "passive")
 			(uuid "6a966f2a-ec69-4303-a8dc-1257961804f5")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "personalized:CP_Radial_1mm"
@@ -3604,6 +3659,17 @@
 			(pintype "passive")
 			(uuid "378d2c39-3495-4829-afab-f04e82e5a89a")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:LED_1mm"
 		(layer "F.Cu")
@@ -3985,6 +4051,17 @@
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0fd67fb4-f334-4464-8741-8480efe7a0bf")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+			(offset
+				(xyz 0 0 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "personalized:SW_PUSH-12mm"
@@ -4655,6 +4732,17 @@
 			(pintype "passive")
 			(uuid "e29f3e7b-73f4-4564-b5d2-3dc4040f532d")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:Resistor_THT_Horizontal_1mm"
 		(layer "F.Cu")
@@ -4919,6 +5007,17 @@
 			(net 11 "Buzzer")
 			(pintype "passive")
 			(uuid "fb663dfa-91e6-44df-8bb0-5aebe2267877")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
@@ -5876,6 +5975,17 @@
 			(pintype "passive")
 			(uuid "90c94ebb-bc7c-472f-bb80-e21a9a3c4dcd")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:LED_RGB"
 		(layer "F.Cu")
@@ -6139,6 +6249,17 @@
 			(pinfunction "BK")
 			(pintype "passive")
 			(uuid "cd776a29-2123-46f9-b9fd-6f8ba602170e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Wide_Pins.step"
+			(offset
+				(xyz -3.2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "personalized:V_1mm"
@@ -7883,6 +8004,18 @@
 			(pintype "passive")
 			(uuid "6b0e93d0-5a23-4073-bc2c-797acaffc69f")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D8.0mm_H7.0mm_P3.50mm.step"
+			(hide yes)
+			(offset
+				(xyz 0.999999 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_QFP:LQFP-32_7x7mm_P0.8mm"
 		(layer "F.Cu")
@@ -9415,6 +9548,17 @@
 			(pintype "passive")
 			(uuid "a57494e3-df11-460d-aa75-54bbde598b82")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "personalized:Resistor_THT_Horizontal_1mm"
 		(layer "F.Cu")
@@ -9679,6 +9823,17 @@
 			(net 2 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "d4830d37-caa0-49a3-b04b-9ed373f8ac1e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-251-3_Vertical"
